@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import { selectAllPokemon } from '../../reducers/selectors.js';
 import PokemonIndex from './pokemon_index.jsx';
+import { selectAllPokemon } from '../../reducers/selectors.js';
 import { requestAllPokemon } from '../../actions/pokemon_actions.js';
 
 const mapStateToProps = state => ({
